@@ -36,6 +36,37 @@
             <input type="text" placeholder="Adicione um novo item" id="item">
             <button>Adicionar item</button>
         </section>
+
+        <section class="list">
+            <div class="item">
+                <div>
+                <input type="checkbox" name="list" id="item-1"> 
+                <div class="custom-checkbox">
+                    <img src="./assets/checked.svg" alt="checked">
+                </div>
+                <label for="item-1">Arroz</label>
+            </div>
+           <button> <img src="./assets/trash-icon.svg" alt="trash"></button>
+
+           <div>
+            <input type="checkbox" name="list" id="item-2"> 
+            <div class="custom-checkbox">
+                <img src="./assets/checked.svg" alt="checked">
+            </div>
+            <label for="item-2">Feijão</label>
+        </div>
+        <button> <img src="./assets/trash-icon.svg" alt="trash"></button>
+        </section>
+              
+        <div class="warning hide-warning">
+            <div>
+                <i class="ph ph-warning-circle ph-fill"></i>
+                <span>O item foi removido da lista</span>
+            </div>
+            <button>
+                <i class="ph ph-x"></i>
+            </button>
+        </div>
     </main>
 </body>
 </html>
