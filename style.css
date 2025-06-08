@@ -87,6 +87,9 @@ main{
             border: 2px solid var(--border-hover);
         }
 
+        &:focus{
+            border: 2px solid var(--color-brand);
+        }
     }
 
     button{
@@ -216,6 +219,8 @@ main{
     .add-item{
         display: grid;
         grid-template-columns: repeat(10, 1fr);
+        gap: 1.6rem
+        ;
 
         input{
             margin-bottom: 0;
@@ -225,9 +230,5 @@ main{
         button{
             grid-column: 8 / 11;
         }
-    }
-
-    .list{
-        .item{
     }
 }
